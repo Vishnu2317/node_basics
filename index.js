@@ -24,7 +24,7 @@ const customModule = require("./index2")
 
 // dotenv.config()
 const server = http.createServer((req,res)=>{
-    file.writeFileSync("data.txt",`[{"name":"abc",age:43},{"name":"def",age:45}]`)
+    // file.writeFileSync("data.txt",`[{"name":"abc",age:43},{"name":"def",age:45}]`)
     const data = file.readFileSync("data.txt")
 
     // const mydate =  new Date()
